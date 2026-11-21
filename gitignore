@@ -1,0 +1,26 @@
+# --- личные данные: НИКОГДА не коммитить ---
+pet_memory.json
+pet_memory.json.bak
+*.memory
+memory/
+chats/
+logs/
+
+# --- секреты ---
+.env
+*.env
+!example.env
+*_token.txt
+*_key.txt
+secrets.*
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# --- системы ---
+.DS_Store
+Thumbs.db
